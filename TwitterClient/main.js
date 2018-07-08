@@ -1,6 +1,11 @@
-/// <reference path="E:\GitHub\Productions\TwitterClient\node_modules\electron\electron.d.ts" />
-var electron = require('electron');
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/*constとimportの違いブロックスコープとは？*/
+/*const electron = require('electron');*/
+var electron = require("electron");
+/*const BrowserWindow: typeof electron.BrowserWindow = electron.BrowserWindow;*/
 var BrowserWindow = electron.BrowserWindow;
+/*const app: Electron.App = electron.app;*/
 var app = electron.app;
 // メインウィンドウの参照をグローバルに持っておく。
 var mainWindow = null;

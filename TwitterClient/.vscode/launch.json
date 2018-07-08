@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "node",
+            "request": "attach",
+            "name": "Attach",
+            "port": 9229,
+            "sourceMaps": false,
+            "address": "localhost"
+        },
+        {
+            "type": "node",
             "request": "launch",
             "name": "Electron Main",
             "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
@@ -13,7 +21,19 @@
                 "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
             },
             "program": "${workspaceRoot}/main.js",
-            "protocol": "legacy"
+            "protocol": "legacy",
+            "stopOnEntry": false,
+            "args": [
+                
+            ],
+            "cwd": "${workspaceFolder}",
+            "runtimeArgs": [
+                
+            ],
+            "env": {
+                
+            },
+            "sourceMaps": false
         }
     ]
 }

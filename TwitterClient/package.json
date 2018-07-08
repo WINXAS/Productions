@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/electron": "^1.6.10",
-    "@types/node": "^10.5.2"
+    "@types/node": "^10.5.2",
+    "tsd": "^0.6.5",
+    "typings": "^2.1.1"
   }
 }

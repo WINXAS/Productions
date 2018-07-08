@@ -1,12 +1,12 @@
-/// <reference path="E:\GitHub\Productions\TwitterClient\node_modules\electron\electron.d.ts" />
-
-const electron = require('electron');
-const BrowserWindow: typeof electron.BrowserWindow = electron.BrowserWindow;
-const app: Electron.App = electron.app;
-
+/*constとimportの違いブロックスコープとは？*/ 
+/*const electron = require('electron');*/
+import electron = require('electron');
+/*const BrowserWindow: typeof electron.BrowserWindow = electron.BrowserWindow;*/
+import BrowserWindow = electron.BrowserWindow;
+/*const app: Electron.App = electron.app;*/
+import app = electron.app;
 // メインウィンドウの参照をグローバルに持っておく。
 var mainWindow: Electron.BrowserWindow = null;
-
 // すべてのウィンドウが閉じられた際の動作
 app.on('window-all-closed', function() {
   // OS X では、ウィンドウを閉じても一般的にアプリ終了はしないので除外。
