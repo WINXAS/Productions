@@ -8,11 +8,11 @@
             "type": "node",
             "request": "launch",
             "name": "Electron Main",
-            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "runtimeExecutable": "${workspaceRoot}/TwitterClient/node_modules/.bin/electron",
             "windows": {
-                "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
+                "runtimeExecutable": "${workspaceRoot}/TwitterClient/node_modules/.bin/electron.cmd"
             },
-            "program": "${workspaceFolder}/main.js",
+            "program": "${workspaceRoot}/TwitterClient/index.js", //main.js -> index.jsに修正
             "protocol": "legacy"
         }
     ]

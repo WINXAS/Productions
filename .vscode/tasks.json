@@ -8,7 +8,10 @@
             "tsconfig": "TwitterClient\\tsconfig.json",
             "problemMatcher": [
                 "$tsc"
-            ]
+            ],
+           "windows" : {
+               "command" : "${workspaceRoot}/TwitterClient/node_modules/.bin/tsc.cmd"
+           }
         }
     ]
 }
