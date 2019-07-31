@@ -15,6 +15,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "electron-builder": "^21.1.5",
+    "googleapis": "^41.0.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
@@ -23,12 +24,15 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@mdi/font": "^3.8.95",
+    "@mdi/js": "^3.8.95",
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-typescript": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
     "electron": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "material-design-icons-iconfont": "^5.0.1",
     "sass": "^1.17.4",
     "sass-loader": "^7.1.0",
     "typescript": "^3.4.3",

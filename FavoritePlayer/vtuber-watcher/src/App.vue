@@ -16,7 +16,7 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
@@ -24,11 +24,13 @@
 <script lang="ts">
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
+import About from './views/About.vue';
 
 export default Vue.extend({
   name: 'App',
   components: {
     HelloWorld,
+    About,
   },
   data: () => ({
     //
